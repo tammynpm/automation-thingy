@@ -27,8 +27,6 @@ def get_nat_rules() -> List[str]:
     lines = [l for l in lines if l and not l.startswith("#")]
     return lines
 
-
-
 def load_previous_rules() -> List[str]:
     if not STATE_FILE.exists():
         return []
