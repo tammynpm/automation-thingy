@@ -8,9 +8,8 @@ import difflib
 
 import requests
 
-STATE_FILE = Path("/home/thkpd/workspace/state.json")
-# DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL")
-DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/1440755589843259492/Se07Ah8T65lxzEz9hyF_BKStmtyjDZ4hs6Wfkyx5dUe8EN23Ie7xuyBKIGvCta02We8P"
+STATE_FILE = Path("")
+DISCORD_WEBHOOK_URL = ""
 IPTABLES_CMD = ["iptables-save", "-t", "nat"]
 
 
